@@ -111,7 +111,7 @@ module.exports = async function demoHandler(req, res, explicitPath) {
     endpointName: endpoint.name,
     object: endpoint.object,
     activeEndpoint: true,
-    domainFlow: 'demoshop.f5latam.app',
+    domainFlow: 'demoapi.f5latam.app',
     safety: 'Payloads are received as inert demo data. No command, callback, file read, SQL query, or authentication is executed.',
     method: req.method,
     url: req.url,

@@ -3,7 +3,7 @@
 Aplicación web estática + APIs serverless para Vercel, pensada para demostraciones de F5 Distributed Cloud WAAP/WAF sobre el dominio:
 
 ```text
-https://demoshop.f5latam.app
+https://demoapi.f5latam.app
 ```
 
 ## Cambios principales de la v3
@@ -51,12 +51,12 @@ POST /api/waf-lab
 ## Cómo validar
 
 1. Desplegar el proyecto en Vercel.
-2. Apuntar el dominio `demoshop.f5latam.app` al deployment.
+2. Apuntar el dominio `demoapi.f5latam.app` al deployment.
 3. Publicar el servicio detrás de F5 Distributed Cloud WAAP.
 4. Abrir:
 
 ```text
-https://demoshop.f5latam.app
+https://demoapi.f5latam.app
 ```
 
 5. Ir a **WAF Attack Lab**.
@@ -84,7 +84,7 @@ La UI limita la ejecución a:
 - Máximo 30 requests por corrida.
 - Delay mínimo de 250 ms.
 - Sin fuzzing infinito.
-- Target no editable: `https://demoshop.f5latam.app`.
+- Target no editable: `https://demoapi.f5latam.app`.
 
 ## Archivos principales
 
